@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Lobster&family=Pacifico&family=Prosto+One&family=Rubik+Glitch&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <script src="./index.js"></script>
+  <!-- html for bg-color -->
+  <header>
+    <span class="btn" id="col0" onclick="changeBG('#44decae0')"></span>
+    <span class="btn" id="col1" onclick="changeBG('lightskyblue')"></span>
+    <span class="btn" id="col2" onclick="changeBG('#df3f3f')"></span>
+  </header>
+
+<!-- html for calculator -->
+<div id="box">
+  
+  <table class="calculator">
+    <tr>
+      <td colspan="4"><input type="text" class="display" id="result" ></td> 
+    </tr>
+    <br>
+    <tr id="r1">
+      <td><input type="button" value="C" onclick="clr()" id="btn"class="opretor"></td>
+      <td><input type="button" value="AC" onclick="clrOne()" class="opretor"></td>
+      <td><input type="button" value="%" onclick="display('%')"class="opretor"></td>
+      <td><input type="button" value="/" onclick="display('/')"class="opretor"></td>
+    </tr>
+    <tr>
+      <td><input type="button" value="7" onclick="display(7)" class="num"></td>
+      <td><input type="button" value="8" onclick="display(8)" class="num"></td>
+      <td><input type="button" value="9" onclick="display(9)" class="num"></td>
+      <td><input type="button" value="*" onclick="display('*')"class="opretor"></td>
+    </tr>
+    <tr>
+      <td><input type="button" value="4" onclick="display(4)" class="num"></td>
+      <td><input type="button" value="5" onclick="display(5)" class="num"></td>
+      <td><input type="button" value="6" onclick="display(6)" class="num"></td>
+      <td><input type="button" value="-" onclick="display('-')"class="opretor"></td>
+    </tr>
+    <tr>
+      <td><input type="button" value="1" onclick="display(1)" class="num"></td>
+      <td><input type="button" value="2" onclick="display(2)" class="num"></td>
+      <td><input type="button" value="3" onclick="display(3)" class="num"></td>
+      <td><input type="button" value="+" onclick="display('+')"class="opretor"></td>
+    </tr>
+    <tr>
+      <td><input type="button" value="." onclick="display('.')" class="num"></td>
+      <td><input type="button" value="0" onclick="display(0)" class="num"></td>
+      <td colspan="2"><input type="button" value="=" onclick="calculate()" id="equal" class=""></td>
+    </tr>
+    </table>   
+</div>
+</body>
+</html>

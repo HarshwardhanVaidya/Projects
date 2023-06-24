@@ -1,0 +1,100 @@
+*{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+  border: none;
+}
+body{
+  background-color: silver;
+}
+#box{
+  background-color: #efefefc6;
+  height: 400px;
+  width: 250px;
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;      
+  margin: 0 auto;
+  margin-top: 100px;
+  box-shadow: 0px 0px 0px 1px rgba(96, 96, 96, 0.167);
+}
+
+.opretor{
+  width: 50px;
+  height: 50px;
+  margin: 2px;
+  align-items: center;
+  font-weight: 400;
+  font-size: larger;
+  color: #3b3b3baa;
+  justify-content: center;
+  background-color: rgba(250, 250, 250, 0.62);
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0px 0px 0px 1px #44444430;
+}
+.num{
+  width: 50px;
+  height: 50px;
+  margin: 2px;
+  align-items: center;
+  font-weight:400;
+  font-size: larger;
+  color: #3b3b3baa;
+  justify-content: center;
+  justify-content: center;
+  background-color: rgba(250, 250, 250, 0.62);
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0px 0px 0px 1px #44444430;
+}
+.display{
+  height: 55px;
+  width: 200px;
+  border: 1px solid rgba(128, 128, 128, 0.117);
+  background-color: rgba(250, 250, 250, 0.62);
+  color: rgba(57, 56, 56, 0.83);
+  margin-bottom: 15px;
+  padding: 5px 15px;
+  align-items: center;
+  font-weight: 400;
+  border-radius: 10px;
+  font-size: x-large;
+}
+#equal{
+  width: 108px;
+  height: 50px;
+  margin: 2px;
+  align-items: center;
+  font-weight: 400;
+  font-size: larger;
+  color: whitesmoke;
+  justify-content: center;
+  background-color: #ed812eea;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0px 0px 0px 1px #44444430;
+  
+}
+.btn{
+  height: 20px;
+  width: 20px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* css for bg-color */
+#col0{
+  background-color: #44decae0;
+}
+#col1{
+ background-color: lightskyblue;
+}
+#col2{
+  background-color: #df3f3f;
+}
